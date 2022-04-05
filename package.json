@@ -4,7 +4,7 @@
   "private": false, "license": "ISC",
 
   "main": "m.mjs",
-  "scripts": { "test": "eslint --ext .js,.mjs ." },
+  "scripts": { "test": "eslint --ext .js,.mjs .; echo eslint result: $?" },
   "directories": { "test": "test" },
   "eslintConfig": { "extends": "nodejs-pmb" },
 
