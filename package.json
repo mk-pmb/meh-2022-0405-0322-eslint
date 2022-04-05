@@ -1,0 +1,24 @@
+{ "name": "meh",
+  "version": "0.0.1",
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "private": false, "license": "ISC",
+
+  "main": "m.mjs",
+  "scripts": { "test": "eslint --ext .js,.mjs ." },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-nodejs-pmb": "^0.3.3",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-node": "^11.1.0"
+  },
+  "peerDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
